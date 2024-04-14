@@ -18,15 +18,13 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  margin: 0;
-}
-
+h6,
 p {
   margin: 0;
 }
 
-ul {
+ul,
+ol {
   list-style-type: none;
   margin: 0;
   padding-left: 0;
@@ -34,6 +32,17 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 body {
@@ -46,8 +55,29 @@ body {
   background-color: var(--white--background--white);
 }
 
-.container {
+.page-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e7e9fc;
+  width: 1140px;
+  height: 72px;
+}
+
+.page-header .container {
+  display: flex;
   width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container {
+    width: 1158px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  margin: 24px 76px 24px 156px;
 }
 
 .logo-link {
@@ -59,10 +89,18 @@ body {
   text-align: left;
   text-transform: uppercase;
   color: var(--primary--brand--iris);
+  margin-right: 76px;
 }
 
 .logo-header {
   color: var(--dark--navy--blue);
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 40px;
 }
 
 .nav-link {
@@ -73,6 +111,9 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
   color: #2e2f42;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -84,6 +125,16 @@ body {
   font-style: normal;
 }
 
+.Contacts {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 40px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-right: 156px;
+}
+
 .auth-nav {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -92,6 +143,7 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
   color: var(--text--slate);
+  
 }
 
 .auth-nav:hover,
