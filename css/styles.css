@@ -125,7 +125,7 @@ body {
   font-style: normal;
 }
 
-.Contacts {
+.contacts {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -153,6 +153,8 @@ body {
 
 .hero {
   background-color: var(--dark--navy--blue);
+    padding: 188px 0;
+    width: 1440px;
 }
 
 .hero-title {
@@ -276,6 +278,20 @@ button:focus {
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
+  display: inline-block;
+}
+
+.logo-link-footer {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-transform: uppercase;
+  color: var(--primary--brand--iris);
+  margin-right: 76px;
+  margin-bottom: 16px;
 }
 
 .logo-footer {
