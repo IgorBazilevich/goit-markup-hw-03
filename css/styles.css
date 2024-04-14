@@ -13,6 +13,29 @@
   --modal--background--dairy: #8e8f99;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -23,12 +46,12 @@ body {
   background-color: var(--white--background--white);
 }
 
-ul {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
+.container {
+  width: 1158px;
+  padding-left: ;
+  padding-right: ;
+  margin-left: ;
+  margin-right: ;
 }
 
 .logo-link {
@@ -123,6 +146,19 @@ button:focus {
   color: var(--dark--navy--blue);
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .title-text {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
@@ -140,8 +176,6 @@ button:focus {
 .team-li {
   background-color: var(--white--background--white);
 }
-
-
 
 .title-team {
   font-family: Roboto;
@@ -175,7 +209,6 @@ button:focus {
 }
 
 .portfolio {
-  background-color: var(--light--cloud);
   color: var(--dark--navy--blue);
 }
 
