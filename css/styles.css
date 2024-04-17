@@ -96,8 +96,6 @@ body {
   margin-top: 24px;
   margin-bottom: 24px;
   margin-right: 332px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .nav-link {
@@ -108,6 +106,7 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -208,7 +207,6 @@ button:focus {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--dark--navy--blue);
-  margin-bottom: 8px;
 }
 
 .list-title-text {
@@ -217,7 +215,7 @@ button:focus {
 }
 
 .list-title {
-   width: calc((100% - 72px) / 4); 
+  width: calc((100% - 72px) / 4);
 }
 
 .visually-hidden {
@@ -241,12 +239,12 @@ button:focus {
   letter-spacing: 0.02em;
   text-align: left;
   color: var(--dark--navy--blue);
+  margin-bottom: 8px;
 }
 
 .team {
   background-color: var(--light--cloud);
   padding: 120px 0;
-
 }
 
 .team-li {
@@ -267,9 +265,9 @@ button:focus {
 
 .list-title-team {
   display: flex;
-   flex-wrap: wrap;
-   column-gap: 24px;
-   row-gap: 48px;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .img-team {
