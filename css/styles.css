@@ -53,13 +53,14 @@ body {
   display: flex;
   align-items: center;
   border-bottom: 1px solid #e7e9fc;
-  width: 1140px;
+  width: 1158px;
   height: 72px;
 }
 
 .page-header .container {
   display: flex;
   width: 1158px;
+  height: 72px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -67,7 +68,6 @@ body {
 .navigation {
   display: flex;
   align-items: center;
-  margin: 24px 76px 24px 156px;
 }
 
 .logo-link {
@@ -80,6 +80,8 @@ body {
   text-transform: uppercase;
   color: var(--primary--brand--iris);
   margin-right: 76px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .logo-header {
@@ -91,6 +93,9 @@ body {
   align-items: center;
   flex-direction: row;
   gap: 40px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-right: 332px;
 }
 
 .nav-link {
@@ -101,9 +106,6 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
   color: #2e2f42;
-  margin-top: 24px;
-  margin-bottom: 24px;
-  padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -113,6 +115,11 @@ body {
 
 .address {
   font-style: normal;
+  padding: 0;
+  border: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
 }
 
 .contacts {
@@ -120,14 +127,8 @@ body {
   align-items: center;
   flex-direction: row;
   gap: 40px;
-}
-
-.contacts-nav {
   margin-top: 24px;
   margin-bottom: 24px;
-  padding: 24px 0;
-  margin-right: auto;
-  margin-left: 200px;
 }
 
 .auth-nav {
@@ -148,8 +149,8 @@ body {
 .hero {
   background-color: var(--dark--navy--blue);
   padding: 188px 0;
-  width: 1440px;
-  height: auto;
+  width: 1158px;
+  height: 600px;
 }
 
 .hero-title {
@@ -160,7 +161,12 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--white--background--white);
-  max-height: 496px;
+  max-width: 496px;
+  padding-left: 472px;
+  padding-right: 472px;
+  display: block;
+  text-align: center;
+  margin-bottom: 48px;
 }
 
 .hero-button {
@@ -173,11 +179,12 @@ body {
   cursor: pointer;
   color: var(--white--background--white);
   display: block;
-  
+  text-align: center;
   min-width: 169px;
   border: none;
   border-radius: 4px;
   height: 56px;
+  margin-left: 636px;
 }
 
 button {
