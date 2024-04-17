@@ -39,12 +39,6 @@ img {
   max-width: 100%;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -68,10 +62,6 @@ body {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-}
-
-.container {
-    width: 1158px;
 }
 
 .navigation {
@@ -130,9 +120,14 @@ body {
   align-items: center;
   flex-direction: row;
   gap: 40px;
+}
+
+.contacts-nav {
   margin-top: 24px;
   margin-bottom: 24px;
-  margin-right: 156px;
+  padding: 24px 0;
+  margin-right: auto;
+  margin-left: 200px;
 }
 
 .auth-nav {
@@ -143,7 +138,6 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
   color: var(--text--slate);
-  
 }
 
 .auth-nav:hover,
@@ -153,8 +147,9 @@ body {
 
 .hero {
   background-color: var(--dark--navy--blue);
-    padding: 188px 0;
-    width: 1440px;
+  padding: 188px 0;
+  width: 1440px;
+  height: auto;
 }
 
 .hero-title {
@@ -165,6 +160,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--white--background--white);
+  max-height: 496px;
 }
 
 .hero-button {
@@ -176,6 +172,12 @@ body {
   text-align: left;
   cursor: pointer;
   color: var(--white--background--white);
+  display: block;
+  
+  min-width: 169px;
+  border: none;
+  border-radius: 4px;
+  height: 56px;
 }
 
 button {
