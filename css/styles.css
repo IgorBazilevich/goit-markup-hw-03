@@ -261,13 +261,20 @@ button:focus {
 
 .team {
   background-color: var(--light--cloud);
-
-  display: flex;
-  align-items: flex-start;
+  padding: 120px 0;
+  max-width: 1440px;
+  text-align: center;
 }
 
 .team-li {
   background-color: var(--white--background--white);
+}
+
+.list-title-team {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .title-team {
@@ -282,15 +289,9 @@ button:focus {
   margin-bottom: 72px;
 }
 
-.list-title-team {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
-}
-
 .img-team {
   background-color: #ffffff;
+  margin-bottom: 32px;
 }
 
 .title-name {
@@ -302,6 +303,7 @@ button:focus {
   text-align: center;
   color: var(--dark--navy--blue);
   background-color: #ffffff;
+  margin-bottom: 8px;
 }
 
 .title-name-text {
@@ -313,6 +315,8 @@ button:focus {
 
 .portfolio {
   color: var(--dark--navy--blue);
+  padding: 120px 0;
+  gap: 24px;
 }
 
 .title-portfolio {
