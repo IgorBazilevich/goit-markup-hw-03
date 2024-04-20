@@ -83,13 +83,15 @@ body {
   padding: 0 15px;
   margin: 0 auto;
 }
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
 
 .page-header-container {
   display: flex;
   width: 1158px;
   height: 72px;
   padding: 0 15px;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .navigation {
