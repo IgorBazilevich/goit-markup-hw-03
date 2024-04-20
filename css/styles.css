@@ -85,6 +85,9 @@ body {
 
 .page-header-container {
   display: flex;
+  width: 1158px;
+  height: 72px;
+  padding: 0 15px;
 }
 
 .navigation {
@@ -223,7 +226,6 @@ button:focus {
 .directions {
   padding: 120px 0;
   max-width: 1128px;
-  
 }
 
 .title-directions {
@@ -238,7 +240,6 @@ button:focus {
 .list-title-text {
   display: flex;
   gap: 24px;
-
 }
 
 .list-title {
@@ -256,13 +257,11 @@ button:focus {
   margin-bottom: 8px;
 }
 
-
-
 /* ============ TEAM STYLES ============ */
 
 .team {
   background-color: var(--light--cloud);
-  
+
   display: flex;
   align-items: flex-start;
 }
