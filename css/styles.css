@@ -268,14 +268,13 @@ button:focus {
 
 .team-li {
   background-color: var(--white--background--white);
-  border-radius: 0px 0px 4px 4px;
+  
 }
 
 .list-title-team {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  border-radius: 0px 0px 4px 4px;
 }
 
 .title-team {
