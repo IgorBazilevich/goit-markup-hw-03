@@ -78,7 +78,6 @@ body {
 .page-header .container {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #e7e9fc;
   width: 1158px;
   height: 72px;
   padding: 0 15px;
@@ -90,7 +89,7 @@ body {
   width: 1158px;
   height: 72px;
   padding: 0 15px;
-  border-bottom: 1px solid #e7e9fc
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .navigation {
