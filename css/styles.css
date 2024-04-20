@@ -70,11 +70,12 @@ body {
 .container {
   width: 1158px;
   padding: 0 15px;
+  margin: 0 auto;
 }
 
 /* ============ HEADER STYLES ============ */
 
-.page-header .container{
+.page-header .container {
   display: flex;
   align-items: center;
   border-bottom: 1px solid #e7e9fc;
@@ -89,6 +90,7 @@ body {
   width: 1158px;
   height: 72px;
   padding: 0 15px;
+  border-bottom: 1px solid #e7e9fc
 }
 
 .navigation {
@@ -178,6 +180,7 @@ body {
   padding: 188px 0;
   max-width: 1158px;
   height: 600px;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -227,6 +230,7 @@ button:focus {
 .directions {
   padding: 120px 0;
   max-width: 1128px;
+  margin: 0 auto;
 }
 
 .title-directions {
@@ -264,11 +268,12 @@ button:focus {
   background-color: var(--light--cloud);
   padding: 120px 0;
   max-width: 1440px;
+  margin: 0 auto;
 }
 
 .team-li {
   background-color: var(--white--background--white);
-  
+  border-radius: 0px 0px 4px 4px;
 }
 
 .list-title-team {
@@ -287,18 +292,15 @@ button:focus {
   text-transform: capitalize;
   color: var(--dark--navy--blue);
   margin-bottom: 72px;
-  border-radius: 0px 0px 4px 4px;
 }
 
 .img-team {
   background-color: #ffffff;
   margin-bottom: 32px;
-  border-radius: 0px 0px 4px 4px;
 }
 
 .team-text {
   padding: 32px 0;
-  border-radius: 0px 0px 4px 4px;
 }
 
 .title-name {
@@ -312,14 +314,12 @@ button:focus {
   background-color: #ffffff;
   margin-bottom: 8px;
   text-align: center;
-  border-radius: 0px 0px 4px 4px;
 }
 
 .title-name-text {
   font-size: 16px;
   color: var(--text--slate);
   text-align: center;
-  border-radius: 0px 0px 4px 4px;
 }
 
 /* ============ PORTFOLIO STYLES ============ */
@@ -328,6 +328,7 @@ button:focus {
   color: var(--dark--navy--blue);
   padding: 120px 0;
   gap: 24px;
+  margin: 0 auto;
 }
 
 .title-portfolio {
@@ -337,15 +338,14 @@ button:focus {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  margin-bottom: 72px
+  margin-bottom: 72px;
 }
 
-.title-portfolio-list{
+.title-portfolio-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-
 }
 
 .title-portfolio-li {
@@ -357,7 +357,7 @@ button:focus {
 }
 
 .portfolio-list-text {
-  padding: 32px 16px ;
+  padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
@@ -369,6 +369,7 @@ button:focus {
   background-color: #2e2f42;
   padding: 100px 0;
   display: inline-block;
+  margin: 0 auto;
 }
 
 .logo-link-footer {
