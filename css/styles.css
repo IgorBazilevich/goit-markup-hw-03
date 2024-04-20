@@ -89,7 +89,6 @@ body {
   width: 1158px;
   height: 72px;
   padding: 0 15px;
-  
 }
 
 .navigation {
@@ -265,7 +264,6 @@ button:focus {
   background-color: var(--light--cloud);
   padding: 120px 0;
   max-width: 1440px;
-  border-radius: 0px 0px 4px 4px;
 }
 
 .team-li {
